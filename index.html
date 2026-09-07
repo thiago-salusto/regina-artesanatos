@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regina Artesanatos</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    
+   <header>
+
+    <div class="container">
+
+        <a href="#inicio" class="logo">
+
+            <span>♕</span>
+
+            <div>
+                <strong>Regina</strong>
+                <small>Artesanatos</small>
+            </div>    
+
+        </a>
+
+        <button
+            class="menu-botao"
+            id="menu-botao"
+            type="button"
+            aria-label="Abrir menu"
+            aria-controls="menu-navegacao"
+            aria-expanded="false"
+        >
+        
+            <span></span>
+            <span></span>
+            <span></span>
+</button>
+
+        <nav class="menu-navegacao" id="menu-navegacao">
+
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#categorias">Categorias</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Contato</a>
+
+        </nav>
+        
+    </div>
+
+   </header>
+
+<section class="hero" id="inicio">
+
+   <div class="container hero-container">
+
+    <div class="hero-content">
+
+        <p class="hero-subtitle">
+            REGINA ARTESANATOS
+        </p>
+
+        <h1>
+            Beleza que <br>
+            decora.
+            <em>Detalhes que encantam.</em>
+        </h1>
+
+        <p class="hero-description">
+            Peças artesanais exclusivas para transformar
+            ambiente e criar momentos especiais.
+        </p>
+
+        <a href="#produtos" class="hero-button">
+            Conheça nossos produtos
+            <span>→</span>
+        </a>
+        
+    </div>
+
+        <div class="hero-imagem">
+            <img
+                src="imagens/hero.webp"
+                alt="Difusor artesanal Regina Artesanatos"
+            >
+        </div>    
+    
+   </div>
+
+</section>
+
+   <!-- Seção de Benefícios -->
+   <section class="beneficios">
+    <div class="container beneficios-container">
+
+        <div class="beneficio-item">
+            <span class="beneficio-icone">♡</span>
+
+            <div>
+                <h3>Feito à mão</h3>
+                <p>Cada peça é feita com amor e dedicação.</p>
+            </div>
+        </div>
+
+        <div class="beneficio-item">
+            <span class="beneficio-icone">✦</span>
+
+            <div>
+                <h3>Materiais de qualidade</h3>
+                <p>Acabamentos especiais e exclusivos.</p>
+            </div>
+        </div>
+
+        <div class="beneficio-item">
+            <span class="beneficio-icone">▱</span>
+
+            <div>
+                <h3>Envio para todo o Brasil</h3>
+                <p>Embalagem segura e entrega garantida.</p>
+            </div>
+        </div>
+
+        <div class="beneficio-item">
+            <span class="beneficio-icone">☏</span>
+
+            <div>
+                <h3>Atendimento especializado</h3>
+                <p>Estamos aqui para ajudar você.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+ 
+   <!-- Seção de Produtos -->
+   <section class="produtos" id="produtos">
+    <div class="container">
+    
+       <div class="produtos-cabecalho">
+         <h2>Nossos produtos</h2>
+
+         <p>
+           Peças feitas com carinho para deixar sua casa ainda mais especial.
+         </p>
+       </div>
+
+       <div class="produtos-grid">
+         
+         <!-- Produto 1 -->
+         <div class="produto-card">
+             
+            <div class="produto-imagem">
+                <img
+                    src="imagens/produto-saboneteira.webp"
+                    alt="Saboneteira artesanal preta e branca"
+                >
+            </div>
+
+            <div class="produto-info">
+                <h3>Saboneteira Artesanal</h3>
+
+                <p>
+                    Uma peça delicada e charmosa para deixar seu banheor ainda mais bonito.
+                </p>
+
+                <span class="produto-preco">R$ 00,00</span>
+
+                <a href="#" class="produto-botao" data-produto="Saboneteira Artesanal">
+                    Ver produto
+                </a>
+            </div>
+
+         </div>
+
+        <!-- Produto 2 -->
+        <div class="produto-card">
+
+            <div class="produto-imagem">
+                <img
+                     src="imagens/produto-kit.webp"
+                     alt="Kit artesanal para lavabo"
+                >
+            </div>
+            
+            <div class="produto-info">
+                <h3>Kit para Lavabo</h3>
+
+                <p>
+                    Ideal para organizar e decorar diferente ambientes da sua casa.
+                </p>
+
+                <span class="produto-preco">R$ 00,00</span>
+
+                <a href="#" class="produto-botao" data-produto="Kit para Lavabo">
+                    Ver produto
+                </a>
+            </div>
+
+        </div>
+        
+        <!-- Produto 3 -->
+        <div class="produto-card">
+
+            <div class="produto-imagem">
+                 <img
+                     src="imagens/produto-porta-joias.webp"
+                     alt="Porta-joias artesanal em formato de concha"
+                >
+            </div>
+
+            <div class="produto-info">
+                <h3>Porta-joias Concha</h3>
+
+                <p>
+                    Toalhas cuidadosamente escolhidas para trazer conforto e beleza.
+                </p>
+
+                <span class="produto-preco">R$ 00,00</span>
+                
+                <a href="#" class="produto-botao" data-produto="Porta-joias Concha">
+                    Ver produto
+                </a>
+            </div>
+
+        </div>
+
+         <!-- Produto 4 -->
+         <div class="produto-card">
+
+            <div class="produto-imagem">
+                <img
+                    src="imagens/produto-difusor.webp"
+                    alt="Difusor artesanal decorativo"
+                >
+            </div>
+            
+            <div class="produto-info">
+                <h3>Difusor Decorativo</h3>
+
+                <p>
+                    Um conjunto especial para deixar sua casa mais organizada e acolhedora.
+                </p>
+
+                <span class="produto-preco">R$ 00,00</span>
+
+                <a href="#" class="produto-botao" data-produto="Difusor Decorativo">
+                    Ver produto
+                </a>
+            </div> <!-- Fecha produtos-grid -->
+
+         </div> <!-- Fecha container -->
+
+   </section>
+
+   <!-- Seção de Categorias -->
+<section class="categorias" id="categorias">
+    <div class="container">
+
+        <div class="categorias-cabecalho">
+            <h2>Nossas Categorias</h2>
+            <div class="titulo-detalhe"></div>
+        </div>
+
+        <div class="categorias-grid">
+
+            <div class="categoria-item">
+
+                <div class="categoria-imagem">
+                   <img src="imagens/produto-porta-joias.webp" alt="Bandejas artesanais">
+                </div>
+                
+                <h3>Bandejas</h3>
+            </div>
+
+            <div class="categoria-item">
+
+                <div class="categoria-imagem">
+                   <img src="imagens/produto-saboneteira.webp" alt="Saboneteiras artesanais">
+                </div>
+                
+                <h3>Saboneteiras</h3>
+            </div>
+
+            <div class="categoria-item">
+                
+                <div class="categoria-imagem">
+                   <img src="imagens/instagram-05.webp" alt="Porta-joias artesanais">
+                </div>
+
+                <h3>Porta-joias</h3>
+            </div>
+
+            <div class="categoria-item">
+                
+                <div class="categoria-imagem">
+                   <img src="imagens/instagram-03.webp" alt="Vasos decorativos">
+                </div>
+
+                <h3>Vasos Decorativos</h3>
+            </div>
+
+            <div class="categoria-item">
+                
+                <div class="categoria-imagem">
+                   <img src="imagens/produto-kit.webp" alt="Kits e conjuntos artesanais">
+                </div>
+
+                <h3>Kits e Conjuntos</h3>
+            </div>
+
+            <div class="categoria-item">
+                
+                <div class="categoria-imagem">
+                   <img src="imagens/instagram-06.webp" alt="Acessórios decorativos">
+                </div>
+
+                <h3>Acessórios</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Seção Sobre a Marca -->
+<section class="sobre" id="sobre">
+    <div class="container sobre-container">
+
+<div class="sobre-imagem">
+    <img
+        src="imagens/sobre.webp"
+        alt="Kit artesanal decorativo Regina Artesanatos"
+    >
+</div>
+
+        <div class="sobre-conteudo">
+
+            <p class="sobre-subtitulo">
+                ♕ Regina Artesanatos
+            </p>
+
+            <h2>
+                Transformamos detalhes em
+                <em>sentimentos.</em>
+            </h2>
+
+            <p class="sobre-descricao">
+                A Regina Artesanatos nasceu do amor pelo feito à mão
+                e pelo desejo de transformar espaços com beleza,
+                delicadeza e significado. Cada peça é pensada para
+                levar aconchego, sofisticação e personalidade até você.
+            </p>
+
+            <div class="sobre-diferenciais">
+
+                <div class="diferencial-item">
+                    <span>✿</span>
+
+                    <div>
+                        <h3>Produção Artesanal</h3>
+                        <p>Peças únicas e exclusivas</p>
+                    </div>
+                </div>
+
+                                <div class="diferencial-item">
+                    <span>♢</span>
+
+                    <div>
+                        <h3>Design Exclusivo</h3>
+                        <p>Criações próprias e sofisticadas.</p>
+                    </div>
+                </div>
+
+                <div class="diferencial-item">
+                    <span>♡</span>
+
+                    <div>
+                        <h3>Feito com Amor</h3>
+                        <p>Cada detalhe feito especialmente.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#sobre" class="sobre-botao">
+                Conheça nossa história
+                <span>→</span>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- Seção do Instagram -->
+<section class="instagram" id="instagram">
+    <div class="container">
+
+        <div class="instagram-cabecalho">
+
+            <div class="instagram-titulo">
+                <span class="instagram-icone">◎</span>
+                <h2>Siga nosso Instagram</h2>
+            </div>
+
+            <a
+                href="https://www.instagram.com/reginaartesanatos2026/"
+                class="instagram-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                @REGINAARTESANATOS2026
+
+                
+                <span>→</span>
+            </a>
+
+        </div>
+
+        <div class="instagram-grid">
+
+            <a href="https://www.instagram.com/reginaartesanatos2026/"
+               class="instagram-post"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="imagens/instagram-01.jpg" alt="Saboneteira artesanal de luxo">
+            </a>
+
+            <a href="https://www.instagram.com/reginaartesanatos2026/"
+                class="instagram-post"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img src="imagens/instagram-02.webp" alt="Bandeja artesanal">
+            </a>
+
+            <a href="https://www.instagram.com/reginaartesanatos2026/"
+               class="instagram-post"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="imagens/instagram-03.webp" alt="Vasos decorativos">
+            </a>
+
+            <a href="https://www.instagram.com/reginaartesanatos2026/"
+               class="instagram-post"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="imagens/instagram-04.webp" alt="Bandejas e porta-joias">
+            </a>
+
+            <a href="https://www.instagram.com/reginaartesanatos2026/"
+                class="instagram-post"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img src="imagens/instagram-05.webp" alt="Porta-joias em formato de concha">
+            </a>
+
+            <a href="https://www.instagram.com/reginaartesanatos2026/"
+               class="instagram-post"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="imagens/instagram-06.webp" alt="Luminária artesanal">
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="rodape" id="contato">
+
+    <div class="container rodape-container">
+
+        <!-- Marca -->
+        <div class="rodape-marca">
+
+            <a href="#" class="logo rodape-logo">
+                <span>♕</span>
+
+                <div>
+                    <strong>Regina</strong>
+                    <small>Artesanatos</small>
+                </div>
+            </a>
+
+            <p>
+                Peças artesanais exclusivas para transformar ambientes
+                e encantar momentos.
+            </p>
+
+            <div class="rodape-redes">
+                <a
+                    href="https://www.instagram.com/reginaartesanatos2026/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
+                    @
+                </a>
+
+               
+                <a href="#" aria-label="WhatsApp da Regina Artesanatos">
+                    <span aria-hidden="true">☎</span>
+                </a>
+
+                <a href="#" aria-label="Facebook da Regina Artesanatos">
+                    f
+                </a>
+                
+                <a href="#" aria-label="Facebook">f</a>
+            </div>
+
+        </div>
+
+        <!-- Links institucionais -->
+        <div class="rodape-coluna">
+            <h3>Institucional</h3>
+
+            <a href="#">Sobre nós</a>
+            <a href="#">Nossa história</a>
+            <a href="#">Política de privacidade</a>
+            <a href="#">Trocas e devoluções</a>
+            <a href="#">Perguntas frequentes</a>
+        </div>
+
+        <!-- Categorias -->
+        <div class="rodape-coluna">
+            <h3>Categorias</h3>
+
+            <a href="#">Bandejas</a>
+            <a href="#">Saboneteiras</a>
+            <a href="#">Porta-joias</a>
+            <a href="#">Vasos decorativos</a>
+            <a href="#">Kits e conjuntos</a>
+            <a href="#">Acessórios</a>
+        </div>
+
+        <!-- Atendimento -->
+        <div class="rodape-coluna">
+            <h3>Atendimento</h3>
+
+            <p>WhatsApp: adicionar número</p>
+            <p>
+                E-mail:
+                <a
+                    href="mailto:contato@reginaartesanatos.com.br?subject=Contato pelo site"
+                    class="rodape-contato-link"
+                >
+                    adicionar e-mail
+                </a>
+            </p>
+            <p>Segunda a sexta: 9h às 18h</p>
+            <p>Sábado: 9h às 13h</p>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="rodape-newsletter">
+            <h3>Newsletter</h3>
+
+            <p>
+                Receba novidades, promoções e lançamentos exclusivos.
+            </p>
+
+            <form class="newsletter-form">
+                <input
+                    type="email"
+                    placeholder="Seu melhor e-mail"
+                    aria-label="Seu melhor e-mail"
+                    required
+                >
+
+                <button type="submit" aria-label="Cadastrar e-mail">
+                    →
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="rodape-final">
+        <div class="container">
+            <p>© 2026 Regina Artesanatos. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Thiago ♡</p>
+        </div>
+    </div>
+
+</footer>
+
+<button
+    class="botao-topo"
+    id="botao-topo"
+    type="button"
+    aria-label="Voltar ao topo"
+    title="Voltar ao topo"
+>
+    ↑
+</button>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

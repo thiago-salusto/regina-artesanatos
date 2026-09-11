@@ -10,6 +10,12 @@ A proposta é oferecer uma experiência visual agradável, permitindo que os vis
 
 O projeto continua em desenvolvimento e receberá novas funcionalidades.
 
+## Demonstração
+
+[![Demonstração do site Regina Artesanatos](imagens/preview-site.png)](https://thiago-salusto.github.io/regina-artesanatos/)
+
+Clique na imagem para acessar o site publicado.
+
 ## Funcionalidades
 
 - Apresentação da marca
